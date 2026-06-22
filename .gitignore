@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Python Virtual Environments
+d_venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Environment Files
+.env
+**/.env
+
+# Mac/OS
+.DS_Store

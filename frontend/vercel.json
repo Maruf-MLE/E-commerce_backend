@@ -1,0 +1,20 @@
+{
+    "rewrites": [
+        {
+            "source": "/api/orders/create/(.*)",
+            "destination": "https://YOUR_NODE_BACKEND_URL/api/orders/create/$1"
+        },
+        {
+            "source": "/api/orders/create",
+            "destination": "https://YOUR_NODE_BACKEND_URL/api/orders/create"
+        },
+        {
+            "source": "/api/(.*)",
+            "destination": "https://YOUR_DJANGO_BACKEND_URL/api/$1"
+        },
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ]
+}
